@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rushhe/VSCodeCProject/DataStructures/Experiment/3/2'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z9InitStackRP5SNode, symObjAddr: 0x0, symBinAddr: 0x1000035AC, symSize: 0x68 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _group, symObjAddr: 0x1F0C, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xAF, offset: 0xAF, size: 0x8, addend: 0x0, symName: _indx, symObjAddr: 0x3A64, symBinAddr: 0x100009B58, symSize: 0x0 }
+  - { offsetInCU: 0x101, offset: 0x101, size: 0x8, addend: 0x0, symName: __Z9InitStackRP5SNode, symObjAddr: 0x0, symBinAddr: 0x1000035AC, symSize: 0x68 }
+  - { offsetInCU: 0x12D, offset: 0x12D, size: 0x8, addend: 0x0, symName: __Z4PushRP5SNodePc, symObjAddr: 0x68, symBinAddr: 0x100003614, symSize: 0x80 }
+  - { offsetInCU: 0x175, offset: 0x175, size: 0x8, addend: 0x0, symName: __Z3PopRP5SNodeRA50_c, symObjAddr: 0xE8, symBinAddr: 0x100003694, symSize: 0x8C }
+  - { offsetInCU: 0x1BD, offset: 0x1BD, size: 0x8, addend: 0x0, symName: __Z6GetTopP5SNodeRA50_c, symObjAddr: 0x174, symBinAddr: 0x100003720, symSize: 0x58 }
+  - { offsetInCU: 0x1F7, offset: 0x1F7, size: 0x8, addend: 0x0, symName: __Z10EmptyStackP5SNode, symObjAddr: 0x1CC, symBinAddr: 0x100003778, symSize: 0x3C }
+  - { offsetInCU: 0x223, offset: 0x223, size: 0x8, addend: 0x0, symName: __Z8ReadFilev, symObjAddr: 0x208, symBinAddr: 0x1000037B4, symSize: 0xDC }
+  - { offsetInCU: 0x25D, offset: 0x25D, size: 0x8, addend: 0x0, symName: __Z13SearchInGroupPcS_, symObjAddr: 0x2E4, symBinAddr: 0x100003890, symSize: 0xB4 }
+  - { offsetInCU: 0x2B3, offset: 0x2B3, size: 0x8, addend: 0x0, symName: __Z11Handle_str1Pc, symObjAddr: 0x398, symBinAddr: 0x100003944, symSize: 0x44C }
+  - { offsetInCU: 0x383, offset: 0x383, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x7E4, symBinAddr: 0x100003D90, symSize: 0x6C }
+...

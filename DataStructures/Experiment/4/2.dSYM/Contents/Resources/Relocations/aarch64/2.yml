@@ -1,0 +1,20 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rushhe/VSCodeCProject/DataStructures/Experiment/4/2'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z9InitStackRP5SNode, symObjAddr: 0x0, symBinAddr: 0x100003530, symSize: 0x68 }
+  - { offsetInCU: 0xC2, offset: 0xC2, size: 0x8, addend: 0x0, symName: __Z9InitStackRP5SNode, symObjAddr: 0x0, symBinAddr: 0x100003530, symSize: 0x68 }
+  - { offsetInCU: 0xEE, offset: 0xEE, size: 0x8, addend: 0x0, symName: __Z4PushRP5SNodei, symObjAddr: 0x68, symBinAddr: 0x100003598, symSize: 0x80 }
+  - { offsetInCU: 0x136, offset: 0x136, size: 0x8, addend: 0x0, symName: __Z3PopRP5SNodeRi, symObjAddr: 0xE8, symBinAddr: 0x100003618, symSize: 0x90 }
+  - { offsetInCU: 0x17E, offset: 0x17E, size: 0x8, addend: 0x0, symName: __Z11StackLengthP5SNode, symObjAddr: 0x178, symBinAddr: 0x1000036A8, symSize: 0x58 }
+  - { offsetInCU: 0x1C6, offset: 0x1C6, size: 0x8, addend: 0x0, symName: __Z13InitLinkQueueR9LinkQueue, symObjAddr: 0x1D0, symBinAddr: 0x100003700, symSize: 0x70 }
+  - { offsetInCU: 0x1F2, offset: 0x1F2, size: 0x8, addend: 0x0, symName: __Z16DisplayLinkQueue9LinkQueue, symObjAddr: 0x240, symBinAddr: 0x100003770, symSize: 0x88 }
+  - { offsetInCU: 0x22C, offset: 0x22C, size: 0x8, addend: 0x0, symName: __Z11EnLinkQueueR9LinkQueuei, symObjAddr: 0x2C8, symBinAddr: 0x1000037F8, symSize: 0x90 }
+  - { offsetInCU: 0x274, offset: 0x274, size: 0x8, addend: 0x0, symName: __Z11DeLinkQueueR9LinkQueueRi, symObjAddr: 0x358, symBinAddr: 0x100003888, symSize: 0x94 }
+  - { offsetInCU: 0x2BC, offset: 0x2BC, size: 0x8, addend: 0x0, symName: __Z15LinkQueueLength9LinkQueue, symObjAddr: 0x3EC, symBinAddr: 0x10000391C, symSize: 0x60 }
+  - { offsetInCU: 0x304, offset: 0x304, size: 0x8, addend: 0x0, symName: __Z12ReverseStackRP5SNode, symObjAddr: 0x44C, symBinAddr: 0x10000397C, symSize: 0x170 }
+  - { offsetInCU: 0x39F, offset: 0x39F, size: 0x8, addend: 0x0, symName: __Z6GetTopP5SNodeRi, symObjAddr: 0x5BC, symBinAddr: 0x100003AEC, symSize: 0x6C }
+  - { offsetInCU: 0x3D9, offset: 0x3D9, size: 0x8, addend: 0x0, symName: __Z9LoopJudge9LinkQueueP5SNode, symObjAddr: 0x628, symBinAddr: 0x100003B58, symSize: 0xF4 }
+  - { offsetInCU: 0x459, offset: 0x459, size: 0x8, addend: 0x0, symName: __Z8CountStu9LinkQueueP5SNode, symObjAddr: 0x71C, symBinAddr: 0x100003C4C, symSize: 0xFC }
+  - { offsetInCU: 0x4CB, offset: 0x4CB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x818, symBinAddr: 0x100003D48, symSize: 0x178 }
+...

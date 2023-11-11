@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rushhe/VSCodeCProject/DataStructures/Experiment/1/1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z13SqList_CreateR6SqListi, symObjAddr: 0x0, symBinAddr: 0x1000036A8, symSize: 0xD8 }
+  - { offsetInCU: 0x58, offset: 0x58, size: 0x8, addend: 0x0, symName: __Z13SqList_CreateR6SqListi, symObjAddr: 0x0, symBinAddr: 0x1000036A8, symSize: 0xD8 }
+  - { offsetInCU: 0xAE, offset: 0xAE, size: 0x8, addend: 0x0, symName: __Z13SqList_InsertR6SqListii, symObjAddr: 0xD8, symBinAddr: 0x100003780, symSize: 0x120 }
+  - { offsetInCU: 0x112, offset: 0x112, size: 0x8, addend: 0x0, symName: __Z13SqList_DeleteR6SqListiRi, symObjAddr: 0x1F8, symBinAddr: 0x1000038A0, symSize: 0xF0 }
+  - { offsetInCU: 0x176, offset: 0x176, size: 0x8, addend: 0x0, symName: __Z13SqList_Search6SqListi, symObjAddr: 0x2E8, symBinAddr: 0x100003990, symSize: 0xB8 }
+  - { offsetInCU: 0x1BE, offset: 0x1BE, size: 0x8, addend: 0x0, symName: __Z13SqList_Output6SqList, symObjAddr: 0x3A0, symBinAddr: 0x100003A48, symSize: 0x84 }
+  - { offsetInCU: 0x202, offset: 0x202, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x424, symBinAddr: 0x100003ACC, symSize: 0x334 }
+...

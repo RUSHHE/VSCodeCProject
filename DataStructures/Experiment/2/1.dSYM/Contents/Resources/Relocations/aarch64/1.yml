@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rushhe/VSCodeCProject/DataStructures/Experiment/2/1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z8InitListRP5LNode, symObjAddr: 0x0, symBinAddr: 0x1000035B8, symSize: 0x68 }
+  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: __Z8InitListRP5LNode, symObjAddr: 0x0, symBinAddr: 0x1000035B8, symSize: 0x68 }
+  - { offsetInCU: 0xB1, offset: 0xB1, size: 0x8, addend: 0x0, symName: __Z14CreateLinkListRP5LNodei, symObjAddr: 0x68, symBinAddr: 0x100003620, symSize: 0xFC }
+  - { offsetInCU: 0x123, offset: 0x123, size: 0x8, addend: 0x0, symName: __Z15LinkList_InsertRP5LNodeii, symObjAddr: 0x164, symBinAddr: 0x10000371C, symSize: 0x114 }
+  - { offsetInCU: 0x195, offset: 0x195, size: 0x8, addend: 0x0, symName: __Z15LinkList_DeleteRP5LNodeiRi, symObjAddr: 0x278, symBinAddr: 0x100003830, symSize: 0x11C }
+  - { offsetInCU: 0x207, offset: 0x207, size: 0x8, addend: 0x0, symName: __Z5MergeRP5LNodeS1_, symObjAddr: 0x394, symBinAddr: 0x10000394C, symSize: 0x150 }
+  - { offsetInCU: 0x267, offset: 0x267, size: 0x8, addend: 0x0, symName: __Z19LinkList_LocateElemP5LNodeiRi, symObjAddr: 0x4E4, symBinAddr: 0x100003A9C, symSize: 0xE0 }
+  - { offsetInCU: 0x2CB, offset: 0x2CB, size: 0x8, addend: 0x0, symName: __Z11DisplayListP5LNode, symObjAddr: 0x5C4, symBinAddr: 0x100003B7C, symSize: 0x7C }
+  - { offsetInCU: 0x301, offset: 0x301, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x640, symBinAddr: 0x100003BF8, symSize: 0x244 }
+...

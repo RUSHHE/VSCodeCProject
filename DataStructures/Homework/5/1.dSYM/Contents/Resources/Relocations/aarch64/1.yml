@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rushhe/VSCodeCProject/DataStructures/Homework/5/1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z12CreateBiTreeRP7BiTNode, symObjAddr: 0x0, symBinAddr: 0x100003A6C, symSize: 0x9C }
+  - { offsetInCU: 0x7F, offset: 0x7F, size: 0x8, addend: 0x0, symName: __Z12CreateBiTreeRP7BiTNode, symObjAddr: 0x0, symBinAddr: 0x100003A6C, symSize: 0x9C }
+  - { offsetInCU: 0xB9, offset: 0xB9, size: 0x8, addend: 0x0, symName: __Z15PreRootTraverseP7BiTNode, symObjAddr: 0x9C, symBinAddr: 0x100003B08, symSize: 0x6C }
+  - { offsetInCU: 0xE1, offset: 0xE1, size: 0x8, addend: 0x0, symName: __Z14InRootTraverseP7BiTNode, symObjAddr: 0x108, symBinAddr: 0x100003B74, symSize: 0x6C }
+  - { offsetInCU: 0x109, offset: 0x109, size: 0x8, addend: 0x0, symName: __Z16PostRootTraverseP7BiTNode, symObjAddr: 0x174, symBinAddr: 0x100003BE0, symSize: 0x6C }
+  - { offsetInCU: 0x131, offset: 0x131, size: 0x8, addend: 0x0, symName: __Z5DepthP7BiTNode, symObjAddr: 0x1E0, symBinAddr: 0x100003C4C, symSize: 0x9C }
+  - { offsetInCU: 0x187, offset: 0x187, size: 0x8, addend: 0x0, symName: __Z16CountNotLeafNodeP7BiTNodeRi, symObjAddr: 0x27C, symBinAddr: 0x100003CE8, symSize: 0x9C }
+  - { offsetInCU: 0x1BD, offset: 0x1BD, size: 0x8, addend: 0x0, symName: __Z14PICreateBiTreePcS_iii, symObjAddr: 0x318, symBinAddr: 0x100003D84, symSize: 0x140 }
+  - { offsetInCU: 0x259, offset: 0x259, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x458, symBinAddr: 0x100003EC4, symSize: 0xB4 }
+...

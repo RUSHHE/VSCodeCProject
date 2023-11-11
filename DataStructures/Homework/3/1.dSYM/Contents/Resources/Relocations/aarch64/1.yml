@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rushhe/VSCodeCProject/DataStructures/Homework/3/1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z14CreateLinkListRP5LNode, symObjAddr: 0x0, symBinAddr: 0x100003B30, symSize: 0xFC }
+  - { offsetInCU: 0xC2, offset: 0xC2, size: 0x8, addend: 0x0, symName: __Z14CreateLinkListRP5LNode, symObjAddr: 0x0, symBinAddr: 0x100003B30, symSize: 0xFC }
+  - { offsetInCU: 0x118, offset: 0x118, size: 0x8, addend: 0x0, symName: __Z11DisplayListP5LNode, symObjAddr: 0xFC, symBinAddr: 0x100003C2C, symSize: 0x7C }
+  - { offsetInCU: 0x14E, offset: 0x14E, size: 0x8, addend: 0x0, symName: __Z9InitStackRP5SNode, symObjAddr: 0x178, symBinAddr: 0x100003CA8, symSize: 0x68 }
+  - { offsetInCU: 0x17A, offset: 0x17A, size: 0x8, addend: 0x0, symName: __Z4PushRP5SNodei, symObjAddr: 0x1E0, symBinAddr: 0x100003D10, symSize: 0x80 }
+  - { offsetInCU: 0x1C2, offset: 0x1C2, size: 0x8, addend: 0x0, symName: __Z3PopRP5SNodeRi, symObjAddr: 0x260, symBinAddr: 0x100003D90, symSize: 0x90 }
+  - { offsetInCU: 0x20A, offset: 0x20A, size: 0x8, addend: 0x0, symName: __Z7ReverseRP5LNode, symObjAddr: 0x2F0, symBinAddr: 0x100003E20, symSize: 0xD0 }
+  - { offsetInCU: 0x260, offset: 0x260, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x3C0, symBinAddr: 0x100003EF0, symSize: 0x44 }
+...

@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rushhe/VSCodeCProject/DataStructures/Experiment/4/1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z11InitSqQueueR7SqQueue, symObjAddr: 0x0, symBinAddr: 0x1000036AC, symSize: 0x60 }
+  - { offsetInCU: 0x95, offset: 0x95, size: 0x8, addend: 0x0, symName: __Z11InitSqQueueR7SqQueue, symObjAddr: 0x0, symBinAddr: 0x1000036AC, symSize: 0x60 }
+  - { offsetInCU: 0xC1, offset: 0xC1, size: 0x8, addend: 0x0, symName: __Z9EnSqQueueR7SqQueuei, symObjAddr: 0x60, symBinAddr: 0x10000370C, symSize: 0xC0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: __Z9DeSqQueueR7SqQueueRi, symObjAddr: 0x120, symBinAddr: 0x1000037CC, symSize: 0xC4 }
+  - { offsetInCU: 0x135, offset: 0x135, size: 0x8, addend: 0x0, symName: __Z13SqQueueLength7SqQueue, symObjAddr: 0x1E4, symBinAddr: 0x100003890, symSize: 0x84 }
+  - { offsetInCU: 0x162, offset: 0x162, size: 0x8, addend: 0x0, symName: __Z14DisplaySqQueue7SqQueue, symObjAddr: 0x268, symBinAddr: 0x100003914, symSize: 0xA4 }
+  - { offsetInCU: 0x1A7, offset: 0x1A7, size: 0x8, addend: 0x0, symName: __Z13InitLinkQueueR9LinkQueue, symObjAddr: 0x30C, symBinAddr: 0x1000039B8, symSize: 0x74 }
+  - { offsetInCU: 0x1D3, offset: 0x1D3, size: 0x8, addend: 0x0, symName: __Z16DisplayLinkQueue9LinkQueue, symObjAddr: 0x380, symBinAddr: 0x100003A2C, symSize: 0x8C }
+  - { offsetInCU: 0x20D, offset: 0x20D, size: 0x8, addend: 0x0, symName: __Z11EnLinkQueueR9LinkQueuei, symObjAddr: 0x40C, symBinAddr: 0x100003AB8, symSize: 0x94 }
+  - { offsetInCU: 0x255, offset: 0x255, size: 0x8, addend: 0x0, symName: __Z11DeLinkQueueR9LinkQueueRi, symObjAddr: 0x4A0, symBinAddr: 0x100003B4C, symSize: 0xA0 }
+  - { offsetInCU: 0x29D, offset: 0x29D, size: 0x8, addend: 0x0, symName: __Z15LinkQueueLength9LinkQueue, symObjAddr: 0x540, symBinAddr: 0x100003BEC, symSize: 0x60 }
+  - { offsetInCU: 0x2E5, offset: 0x2E5, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x5A0, symBinAddr: 0x100003C4C, symSize: 0x280 }
+...
