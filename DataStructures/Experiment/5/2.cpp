@@ -23,7 +23,6 @@ typedef struct QNode
     struct QNode *next; // 指针域
 } QNode, *QueuePtr;
 
-// 循环链队列的结构
 typedef struct
 {
     QueuePtr front;
@@ -210,7 +209,7 @@ void PrintLeafNode(BiTree T)
     }
 }
 
-Status InitLinkQueue(LinkQueue &Q)
+Status InitQueue(LinkQueue &Q)
 {
     Q.front = (QueuePtr)malloc(sizeof(QNode));
     if (!Q.front)
@@ -272,7 +271,7 @@ bool QueueEmpty(LinkQueue Q)
     return Q.front == Q.rear;
 }
 
-int LinkQueueLength(LinkQueue Q)
+int QueueLength(LinkQueue Q)
 {
     QueuePtr p = Q.front;
     int length = 0;
@@ -289,7 +288,7 @@ void PrintTree(BiTree T, int depth)
 {
 	int pre = 0, flag = 1;
 	LinkQueue Q; // 定义一个循环链队列
-	InitLinkQueue(Q); // 初始化队列
+	InitQueue(Q); // 初始化队列
 	T->layer = 0; // 根结点层次数为0
 	EnLinkQueue(Q, T); // 根结点入队
 	while (!QueueEmpty(Q)) // 队列不为空时循环

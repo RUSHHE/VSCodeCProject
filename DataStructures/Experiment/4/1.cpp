@@ -86,7 +86,7 @@ void DisplaySqQueue(SqQueue Q)
     printf("\n");
 }
 
-Status InitLinkQueue(LinkQueue &Q)
+Status InitQueue(LinkQueue &Q)
 {
     Q.rear = (QueuePtr)malloc(sizeof(QNode));
     if (!Q.rear)
@@ -139,7 +139,7 @@ Status DeLinkQueue(LinkQueue &Q, LinkQElemType &e)
     return OK;
 }
 
-int LinkQueueLength(LinkQueue Q)
+int QueueLength(LinkQueue Q)
 {
     QueuePtr p = Q.rear->next->next;
     int length = 0;
@@ -177,7 +177,7 @@ int main()
     DisplaySqQueue(Q);
 
     LinkQueue Q1;
-    InitLinkQueue(Q1);
+    InitQueue(Q1);
     printf("输入的队列队列长度n:");
     int n1;
     scanf("%d", &n1);

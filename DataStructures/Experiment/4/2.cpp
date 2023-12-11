@@ -79,7 +79,7 @@ int StackLength(LinkStack S)
     return length;
 }
 
-Status InitLinkQueue(LinkQueue &Q)
+Status InitQueue(LinkQueue &Q)
 {
     Q.front = (QueuePtr)malloc(sizeof(QNode));
     if (!Q.front)
@@ -132,7 +132,7 @@ Status DeLinkQueue(LinkQueue &Q, QElemType &e)
     return OK;
 }
 
-int LinkQueueLength(LinkQueue Q)
+int QueueLength(LinkQueue Q)
 {
     QueuePtr p = Q.front;
     int length = 0;
@@ -180,7 +180,7 @@ int LoopJudge(LinkQueue Q, LinkStack S)
     int n, i;
     int count = 0;
     SElemType k;
-    n = LinkQueueLength(Q);
+    n = QueueLength(Q);
     QueuePtr stu = Q.front->next;
     for (i = 0; i < n; i++)
     {
@@ -220,13 +220,13 @@ int CountStu(LinkQueue Q, LinkStack S)
             EnLinkQueue(Q, e);
         }
     }
-    if (LinkQueueLength(Q) == 0)
+    if (QueueLength(Q) == 0)
     {
         return 0;
     }
     else
     {
-        return LinkQueueLength(Q);
+        return QueueLength(Q);
     }        
 }
 
@@ -236,7 +236,7 @@ int main()
     scanf("%d", &n);
     printf("初始化学生队列\n");
     LinkQueue Q;
-    InitLinkQueue(Q);
+    InitQueue(Q);
     for (int i = 0; i < n; i++)
     {
         QElemType e;
