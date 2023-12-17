@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define LIST_INIT_SIZE 100
-#define LISTINCREMENT 10
 #define ERROR 0
 #define OK 1
 #define OVERFLOW -2
@@ -26,7 +24,7 @@ Status InitList(LinkList &L)
 }
 
 //尾插法
-Status CreateLinkList(LinkList &L, int n)
+Status CreateList(LinkList &L, int n)
 {
     ElemType node;
     L = (LinkList)malloc(sizeof(LNode));
@@ -160,68 +158,48 @@ void DisplayList(LinkList L)
     printf("\n");
 }
 
+int Length(LinkList L)
+{
+    LinkList p = L->next;
+    int i = 0;
+    while (p)
+    {
+        p = p->next;
+        i++;
+    }
+    return i;
+}
+
+Status InsertSort(LinkList &L)
+{
+    if (L->next == NULL)
+    {
+        return OK;
+    }
+    LinkList p, q, pre;
+    p = L->next->next; // 从第二个节点开始
+    L->next->next = NULL; // 将原表设置成只有第一个元素
+    while (p != NULL)
+    {
+        q = p->next; // q是下一个元素
+        pre = L; // 用pre保存L
+        while (pre->next!= NULL && pre->next->data < p->data)
+        {
+            pre = pre->next; // 前面已经有序,扫描到合适的位置
+        }
+        p->next = pre->next;
+        pre->next = p;
+        p = q;
+    }
+    return OK;
+}
+
 int main()
 {
-    //创建指定长度的单链表，并输入元素
     LinkList L;
-    int n;
-    printf("请输入表的长度n:");
-    scanf("%d", &n);
-    CreateLinkList(L, n);
+    CreateList(L, 9);
     DisplayList(L);
-
-    //在第a位前插入b
-    int a;
-    ElemType b;
-    printf("要在第几位前插入？:");
-    scanf("%d", &a);
-    printf("插入的元素?:");
-    scanf("%d", &b);
-    List_Insert(L, a, b);
+    InsertSort(L);
     DisplayList(L);
-
-    //删除第e位元素，打印被赋值的元素f
-    int e;
-    ElemType f;
-    printf("要删除第几位元素?:");
-    scanf("%d", &e);
-    List_Delete(L, e, f);
-    printf("这是被删除的元素:%d\n", f);
-    printf("这是删除后的表\n");
-    DisplayList(L);
-
-    //查找第c位元素d
-    int c;
-    ElemType d;
-    printf("要查找第几位元素？:");
-    scanf("%d", &c);
-    if (LocateElem(L, c, d) == OK)
-    {
-        printf("查找成功！\n");
-        printf("%d\n", d);
-    }
-    else
-    {
-        printf("查找失败\n");
-    }
-
-    //创建长度为n1，n2的表L1，L2
-    int n1, n2;
-    LinkList L1, L2;
-    printf("创建表L1,L2\n");
-    printf("n1:");
-    scanf("%d", &n1);
-    printf("n2:");
-    scanf("%d", &n2);
-    CreateLinkList(L1, n1);
-    CreateLinkList(L2, n2);
-    printf("L1,L2如下\n");
-    DisplayList(L1);
-    DisplayList(L2);
-
-    //合并L1，L2为L1
-    Merge(L1, L2);
-    printf("合并后的表如下:\n");
-    DisplayList(L1);
     return 0;
 }
